@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<config>
+	<strOutputFile strFile="PaBalls2016VB20.resources" />
+	<define>
+		<Icon strFile="PaBalls2016VB20.ico" strResourceName="this.ico" />
+		<Image strFile="res-button/button-01.png" strResourceName="button-01.png" />
+		<Image strFile="res-button/button-02.png" strResourceName="button-02.png" />
+		<Image strFile="res-button/button-03.png" strResourceName="button-03.png" />
+		<Image strFile="res-button/button-04.png" strResourceName="button-04.png" />
+		<Image strFile="res-button/button-05.png" strResourceName="button-05.png" />
+		<Image strFile="10522425_174227511161_2.jpg" strResourceName="bg.jpg" />
+		<Image strFile="res-balls/ball-01.png" strResourceName="ball-01.png" />
+		<Image strFile="res-balls/ball-02.png" strResourceName="ball-02.png" />
+		<Image strFile="res-balls/ball-03.png" strResourceName="ball-03.png" />
+		<Image strFile="res-balls/ball-04.png" strResourceName="ball-04.png" />
+		<Image strFile="res-balls/ball-05.png" strResourceName="ball-05.png" />
+		<Image strFile="res-balls/ball-06.png" strResourceName="ball-06.png" />
+		<Image strFile="res-balls/ball-07.png" strResourceName="ball-07.png" />
+		<Image strFile="res-balls/ball-08.png" strResourceName="ball-08.png" />
+		<Image strFile="res-balls/ball-09.png" strResourceName="ball-09.png" />
+		<Image strFile="res-balls/ball-10.png" strResourceName="ball-10.png" />
+		<String strContent="PaBalls2016VB20" strResourceName="string.name" />
+	</define>
+</config>
