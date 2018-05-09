@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<config>
+	<strOutputFile strFile="PaDigitalClock2016VB20.resources" />
+	<define>
+		<Icon strFile="PaDigitalClock2016VB20.ico" strResourceName="this.ico" />
+		<Data strFile="DigitalClockMatrix12x22.bin" strResourceName="matrix.bin" />
+		<String strContent="PaDigitalClock2016VB20" strResourceName="string.name" />
+	</define>
+</config>
