@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<config>
+	<strOutputFile strFile="PaQix2016VB20.resources" />
+	<define>
+		<Icon strFile="PaQix2016VB20.ico" strResourceName="this.ico" />
+		<String strContent="PaQix2016VB20" strResourceName="string.name" />
+	</define>
+</config>
