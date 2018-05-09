@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<config>
+	<strOutputFile strFile="PaClock2016VB20.resources" />
+	<define>
+		<Icon strFile="PaClock2016VB20.ico" strResourceName="this.ico" />
+		<Image strFile="5992276_091026075415_2.gif" strResourceName="interface.gif" />
+		<String strContent="PaClock2016VB20" strResourceName="string.name" />
+	</define>
+</config>
