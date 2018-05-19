@@ -41,7 +41,7 @@ Class CocktailSortDemo1
                     data(i) = temp
                 End If
             Next
-            left = left + 1
+            left += 1
         End While
     End Sub
 End Class
