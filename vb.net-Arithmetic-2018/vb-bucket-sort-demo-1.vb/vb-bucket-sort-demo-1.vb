@@ -57,12 +57,12 @@ Class BucketSortDemo1
             C(b1) = C(b1) + 1
         Next
         For i = 1 To bn - 1
-            C(i) = C(i) + C(i - 1)
+            C(i) += C(i - 1)
         Next
         Dim B(n - 1) As Integer
         For i = n - 1 To 0 Step -1
             b1 = MapToBucket(data(i))
-            C(b1) = C(b1) - 1
+            C(b1) -= 1
             B(C(b1)) = data(i)
         Next
         For i = 0 To n - 1
