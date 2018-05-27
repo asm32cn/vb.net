@@ -61,7 +61,9 @@ Class MergeSortDemo1
 		Next
 	End Sub
 
+	' 递归实现的归并排序(自顶向下)
 	Public Sub MergeSortRecursion(data As Integer(), nLeft As Integer, nRight As Integer)
+		' 当待排序的序列长度为1时，递归开始回溯，进行merge操作
 		If nLeft = nRight Then Return
 
 		Dim nMid As Integer = Int((nLeft + nRight) / 2)
@@ -70,15 +72,21 @@ Class MergeSortDemo1
 		Merge(data, nLeft, nMid, nRight)
 	End Sub
 
+	' 非递归(迭代)实现的归并排序(自底向上)
 	Public Sub MergeSortIteration(data As Integer())
 		Dim n As Integer = data.Length
+		' 子数组索引，前一个为A[left ... mid]，后一个为A[mid + 1 ... right]
 		Dim nLeft As Integer, nMid As Integer, nRight As Integer
 		Dim i As Integer = 1
+		' 子数组的大小i初始为1，没轮翻倍
 		While i < n
 			nLeft = 0
+			' 后一个子数组存在(需要归并)
 			While nLeft + i < n
 				nMid = nLeft + i - 1
+				' 后一个子数组大小可能不够
 				nRight = Iif(nMid + i < n, nMid + i, n - 1)
+				' 前一个子数组索引向后移动
 				Merge(data, nLeft, nMid, nRight)
 				nLeft = nRight + 1
 			End While
